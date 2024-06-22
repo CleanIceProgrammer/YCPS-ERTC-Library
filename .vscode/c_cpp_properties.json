@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:/Program Files/MinGW64/bin/g++.exe",
+            "intelliSenseMode": "windows-gcc-x64",
+            "cStandard": "c23",
+            "cppStandard": "c++23"
+        }
+    ],
+    "version": 4
+}
