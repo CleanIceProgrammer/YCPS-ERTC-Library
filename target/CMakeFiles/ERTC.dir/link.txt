@@ -1,2 +1,0 @@
-C:\PROGRA~1\MinGW64\bin\ar.exe qc libERTC.a CMakeFiles/ERTC.dir/src/exceptions.cpp.obj CMakeFiles/ERTC.dir/src/object.cpp.obj
-C:\PROGRA~1\MinGW64\bin\ranlib.exe libERTC.a
