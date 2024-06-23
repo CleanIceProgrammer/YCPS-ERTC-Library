@@ -2,10 +2,17 @@
 
 #include <exception>
 
+#include "dynamic_memory.h"
+
 namespace exc {
 
-class R_AttemptToModifyConstIteratorException : public std::exception {
-    
+using dynamic_memory::DyPtr;
+
+class R_NoNextIteratorException;
+
+using NoNextIteratorException = DyPtr<R_NoNextIteratorException>;
+
+class R_NoNextIteratorException : public std::exception {
 };
 
 }

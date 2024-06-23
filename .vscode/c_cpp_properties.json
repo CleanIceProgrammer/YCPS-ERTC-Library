@@ -14,7 +14,10 @@
             "compilerPath": "C:/Program Files/MinGW64/bin/g++.exe",
             "intelliSenseMode": "windows-gcc-x64",
             "cStandard": "c23",
-            "cppStandard": "c++23"
+            "cppStandard": "c++23",
+            "compilerArgs": [
+                "-Wall"
+            ]
         }
     ],
     "version": 4
